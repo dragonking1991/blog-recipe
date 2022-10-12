@@ -19,9 +19,6 @@ const Layout = ({ pageTitle, children, showFooter }) => {
       }
     }
   `);
-  const showNav = () => {
-    return showFooter;
-  };
 
   return (
     <div className={container}>
